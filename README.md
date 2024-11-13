@@ -1,7 +1,7 @@
 # syserrors
 
 syserrors is a Go package that provides structured error definitions with
-standardized exit status codes, inspired by the traditional UNIX sysexits.h
+standardized exit status codes, inspired by the traditional FreeBSD sysexits.h
 exit codes. This package helps you manage and handle different types of errors
 in your Go applications, providing clear and consistent exit codes to the
 operating system upon failure.
@@ -86,8 +86,3 @@ func (e *MyCustomError) Code() int {
 
 This project is licensed under the MIT License - see the LICENSE file for
 details.
-
-## Acknowledgments
-
-This package is inspired by the traditional sysexits.h file in FreeBSD systems,
-providing a structured approach to error handling in Go applications.
