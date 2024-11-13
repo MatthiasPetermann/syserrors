@@ -1,7 +1,7 @@
 # syserrors
 
 syserrors is a Go package that provides structured error definitions with
-standardized exit status codes, inspired by the traditional FreeBSD sysexits.h
+standardized exit status codes, inspired by the traditional UNIX sysexits.h
 exit codes. This package helps you manage and handle different types of errors
 in your Go applications, providing clear and consistent exit codes to the
 operating system upon failure.
@@ -31,7 +31,7 @@ go get github.com/MatthiasPetermann/syserrors
 import (
     "fmt"
     "os"
-    "github.com/yourusername/syserrors"
+    "github.com/MatthiasPetermann/syserrors"
 )
 ```
 
